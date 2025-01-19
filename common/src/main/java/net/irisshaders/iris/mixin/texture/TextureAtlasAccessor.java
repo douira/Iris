@@ -22,4 +22,10 @@ public interface TextureAtlasAccessor {
 
 	@Invoker("getHeight")
 	int callGetHeight();
+
+	@Accessor
+	int getWidth();
+
+	@Accessor
+	int getHeight();
 }
